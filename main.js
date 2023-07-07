@@ -1,18 +1,18 @@
-// function buttonBuy () {
+function buttonBuy () {
     
-//     function evento (event) {
-//         const clicar = document.querySelector(`.buy`)
-//     }
+    function evento (event) {
+        const clicar = document.querySelector(`.buy`)
+    }
 
-//     addEventListener(`submit`, evento)
+    addEventListener(`submit`, evento)
 
-//     if (evento() === true) {
-//         console.log(`clicado`)
-//     }
-//     else {
-//         console.log(`clicou na mesma`)
-//     }
-//     return
-// }
+    if (evento() === true) {
+        console.log(`clicado`)
+    }
+    else {
+        console.log(`clicou na mesma`)
+    }
+    return
+}
 
-// buttonBuy()
+buttonBuy()
