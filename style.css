@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Open+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.contraplex-logo {
+    padding: 20px;
+    font-family: 'Belanosima', sans-serif;
+    text-decoration: none;
+    font-weight:550;
+    color: #191970;
+    font-size: 50px;
+    display: inline-block;
+}
+
+#plex {
+    color: #ac8539;
+}
+
+#contraplex1 {
+    font-family: 'Belanosima', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    color: #191970;
+    font-size: 20px;
+}
+
+#contraplex2 {
+    font-family: 'Belanosima', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    color: #ac8539;
+    font-size: 20px;
+}
+
+#contraplex1:hover {
+    color:#ac8539;
+    transition: 0.7s;
+}
+
+#contraplex2:hover {
+    color: #191970;
+    transition: 0.7s;
+}
+
+hr {
+    border: 1px solid ;
+}
+
+.section1 {
+    padding: 50px;
+    background-color: rgb(214, 203, 179);  
+    padding-bottom: 122px;
+
+}
+
+.cama-colchao {
+    display: flex;
+    border-radius: 10px;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buy {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    border: 0.1px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.buy:hover {
+    background-color:rgb(214, 203, 179);
+    color: #191970;
+    transition: 0.7s;
+}
+
+.mb {
+    
+    display: flex; 
+    font-size: 20px; 
+    justify-content: center;
+}
