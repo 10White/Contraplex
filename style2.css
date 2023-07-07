@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: rgb(216, 209, 194);
+    background-color: #fff;
 }
 
 header {
@@ -35,6 +35,12 @@ header {
     color: #ac8539;
 }
 
+.sobre {
+    outline: solid;
+    border-radius: 20px;
+    /* transition: 500ms; */
+}
+
 #contraplex1 {
     font-family: 'Belanosima', sans-serif;
     text-decoration: none;
@@ -57,75 +63,12 @@ header {
 
 #contraplex1:hover {
     color:#ac8539;
-    transition: 0.7s;
 }
 
 #contraplex2:hover {
     color: #191970;
-    transition: 0.7s;
 }
 
 hr {
     border: 1px solid ;
-}
-
-.section1 {
-    padding: 70px;
-    margin-left: 150px;
-}
-
-.cama-colchao {
-    display: flex;
-    border-radius: 50px;
-    width: 60%;
-    height: 60%;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 40px;
-}
-
-.buy {
-    display: flex;
-    font-size: 25px;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    border-radius: 5px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    /* margin-left: auto;
-    margin-right: auto; */
-    padding: 10px;
-    cursor:pointer;
-    background-color: #45a545;
-    transition: 500ms;
-    margin-top: 70px;
-}
-
-.buy:hover {
-    background-color:rgb(16, 146, 16);
-}
-
-.mb {
-    font-weight: bold;
-    display: flex; 
-    font-size: 70px; 
-    transition: 500ms;
-    width: 50%;
-    /* transition:  ease-out 1000ms; */
-}
-
-.p_section1 {
-    font-size: 20px;
-}
-
-.h2_section1 {
-    margin-top: 30px;
-    width: 45%;
-    color: #0b1320;
-}
-
-.container_1 img {
-    width: 20%;
 }
