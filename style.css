@@ -9,7 +9,8 @@
 }
 
 body {
-    background-color: rgb(216, 209, 194);
+    /* background-color: linear-gradient(45deg, #E8CBC0, #636FA4); */
+    background: linear-gradient(90deg, #cea044bb, #2957b9bb); /* rgb(216, 209, 194) */
 }
 
 header {
@@ -99,7 +100,7 @@ hr {
     margin-right: auto; */
     padding: 10px;
     cursor:pointer;
-    background-color: #45a545;
+    background-color: #3aa73a;
     transition: 500ms;
     margin-top: 70px;
 }
