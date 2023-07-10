@@ -13,63 +13,6 @@ body {
     background: linear-gradient(90deg, #2957b9bb, #cea044bb); /* rgb(216, 209, 194) */ /* 90deg, #cea044bb, #2957b9bb)*/  /*(90deg, #2957b9bb, #cea044bb)*/
 }
 
-header {
-    background-color: #fff;
-    padding: 20px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-.contraplex-logo {
-    padding: 20px;
-    font-family: 'Belanosima', sans-serif;
-    text-decoration: none;
-    font-weight:550;
-    color: #191970;
-    font-size: 50px;
-    display: inline-block;
-}
-
-#plex {
-    color: #ac8539;
-}
-
-#contraplex1 {
-    font-family: 'Belanosima', sans-serif;
-    text-decoration: none;
-    display: inline-block;
-    padding: 20px;
-    color: #191970;
-    font-size: 20px;
-    transition: 500ms;
-}
-
-#contraplex2 {
-    font-family: 'Belanosima', sans-serif;
-    text-decoration: none;
-    display: inline-block;
-    padding: 20px;
-    color: #ac8539;
-    font-size: 20px;
-    transition: 500ms;
-}
-
-#contraplex1:hover {
-    color:#ac8539;
-    transition: 0.7s;
-}
-
-#contraplex2:hover {
-    color: #191970;
-    transition: 0.7s;
-}
-
-hr {
-    border: 1px solid ;
-}
-
 .section1 {
     padding: 70px;
     margin-left: 50px;

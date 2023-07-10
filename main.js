@@ -1,4 +1,3 @@
-
 function buybutton () {
     const botao = document.getElementById("primeiroBotao");
 
