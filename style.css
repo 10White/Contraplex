@@ -10,7 +10,7 @@
 
 body {
     /* background-color: linear-gradient(45deg, #E8CBC0, #636FA4); */
-    background: linear-gradient(90deg, #cea044bb, #2957b9bb); /* rgb(216, 209, 194) */
+    background: linear-gradient(90deg, #2957b9bb, #cea044bb); /* rgb(216, 209, 194) */ /* 90deg, #cea044bb, #2957b9bb)*/  /*(90deg, #2957b9bb, #cea044bb)*/
 }
 
 header {
