@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Open+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.contraplex-logo {
+    padding: 20px;
+    font-family: 'Belanosima', sans-serif;
+    text-decoration: none;
+    font-weight:550;
+    color: #191970;
+    font-size: 50px;
+    display: inline-block;
+}
+
+#plex {
+    color: #ac8539;
+}
+
+.produtos {
+    outline: solid;
+    border-radius: 20px;
+    /* transition: 500ms; */
+}
+
+#contraplex1 {
+    font-family: 'Belanosima', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    color: #191970;
+    font-size: 20px;
+    transition: 500ms;
+}
+
+#contraplex2 {
+    font-family: 'Belanosima', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    color: #ac8539;
+    font-size: 20px;
+    transition: 500ms;
+}
+
+#contraplex1:hover {
+    color:#ac8539;
+}
+
+#contraplex2:hover {
+    color: #191970;
+}
+
+hr {
+    border: 1px solid ;
+}
